@@ -1,22 +1,125 @@
 .App {
-  text-align: center;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-}
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #09d3ac;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.monsoon { 
+  /* width: 100%; */
+  height: 400px;
+  padding: 80px;
+  background-color: #ffffff;
+}
+
+.move {
+  height: 500px;
+  background: linear-gradient(to bottom, #000000 -20%, #ffffff 109%);
+  padding: 80px;
+}
+
+.beams {
+  justify-content: center;
+  padding: 80px;
+  height: 600px;
+  background-color: #666;
+}
+
+p {
+  color: #000;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.row{
+  max-width: 1400px;
+  /* margin: 0 auto 0 auto; */
+  display: flex;
+  align-items: center;
+}
+
+
+
+h3 {
+  text-align: left;
+  color: #000;
+}
+
+.secondDiv {
+  color: #fff;
+}
+
+@media only screen and (max-width: 800px) {
+
+  .monsoon {
+    height: 500px;  
+  }
+
+  .move {
+    height: 650px;
+  }
+
+}
+@media only screen and (max-width: 600px) {
+
+  .monsoon {
+    height: 450px;
+    padding: 30px;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+
+  }
+
+  .beams {
+    padding: 30px;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+  }
+
+  .move {
+    
+    padding: 30px;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+  }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .monsoon {
+    height: 500px;
+    width: 100%; 
+  }
+
+  .beams {
+    padding: 30px;
+  }
+
+  .move {
+    padding: 30px;
+  }
+
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+const data = {
+    "postermovies": [
+        {
+            "id": "1",
+            "index": 0,
+            "picture": "https://a.ltrbxd.com/resized/sm/upload/z3/0g/ol/7s/gALeMjf3NlSXy1gbz3eKct1aRhd-0-230-0-345-crop.jpg",
+            "description": "Raised on hip-hop and foster care, definat city kid Ricky gets a fresh start in the New Zealand countryside. From the director of What We DO In THe Shadows. "
+            },
+            {
+                "id": "2",
+                "index": 1,
+            "picture": "https://d32qys9a6wm9no.cloudfront.net/images/movies/poster/a4/7f9e5a6043646195d8251a650e52d9ce_500x735.jpg",
+            "description":"A Swiss family takes a ski vacation and runs into trouble when the father, the titular decent man, finds himself in a series of moral quandaries."
+            },
+            {
+                "id": "3",
+                "index": 2,
+            "picture": "https://i.ytimg.com/vi/rAhHQfmFTxw/movieposter.jpg",
+            "description": "Come along with the Good Company crew as they travel throughout the US, Japan, BC, and Quebec to showcase skiing in the best way possible. "	
+            },
+            {
+                "id": "4",
+                "index": 3,
+                "picture": "https://m.media-amazon.com/images/M/MV5BOGVhNjUwYTItYmI2NS00ZGI1LWE5ZDQtMWVjMTIyODAzMDI4XkEyXkFqcGdeQXVyMjQ3NzUxOTM@._V1_.jpg",
+                "description": "From the creator of the Art of FLIGHT, Red Bull Media House represents THE FOURTH PHASE, a snowboarding epic iconic athlete Travis Rice. "	
+            }
+    ]
+}
+
+export default data;
