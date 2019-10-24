@@ -1,0 +1,9 @@
+To run this project, make sure that you have:
+
+* React-Bootstrap if not, install `npm install react-bootstrap bootstrap`
+* React-Gesture-Gallery if not, install `npm i react-gesture-gallery`
+* React-Gesture-Responder if not, install `npm i react-gesture-responder`
+
+
+
+ 
